@@ -1,0 +1,65 @@
+/* NotFound.css */
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .notfound-content {
+    max-width: 600px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .notfound-title {
+    font-size: 96px;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin: 0;
+  }
+  
+  .notfound-text {
+    font-size: 24px;
+    color: #343a40;
+    margin: 20px 0;
+  }
+  
+  .notfound-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notfound-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .notfound-link:active {
+    background-color: #004085;
+  }
+  
+  @media (max-width: 768px) {
+    .notfound-title {
+      font-size: 72px;
+    }
+  
+    .notfound-text {
+      font-size: 20px;
+    }
+  
+    .notfound-link {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.register{
+    /* background-color: #ff0000; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(177, 172, 172, 0.5);
+}
+.data_register{
+    /* background-color: blue; */
+    height: 50vh;
+    width: 50%;
+    
+
+}
